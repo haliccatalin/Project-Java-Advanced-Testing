@@ -1,10 +1,13 @@
 package com.sda.javaadvancedtesting.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
 
-@Entity
-public class Email {
-    @Id
+
+public class EmailSender {
     private Long id;
+
+    public void send(String to, String subject, String message) {
+        System.out.println(to);
+        System.out.println(subject);
+        System.out.println(message);
+    }
 }
