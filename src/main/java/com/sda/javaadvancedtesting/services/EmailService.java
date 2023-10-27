@@ -1,6 +1,6 @@
 package com.sda.javaadvancedtesting.services;
 
-import com.sda.javaadvancedtesting.model.EmailSender;
+import com.sda.javaadvancedtesting.utils.EmailSender;
 
 public class EmailService {
     private final EmailSender emailSender;
@@ -9,8 +9,8 @@ public class EmailService {
         this.emailSender = emailSender;
     }
 
-    public void sendEmail(String to, String subject, String body) {
+    public void sendEmail(String toEmail, String subject, String body) {
         // Business logic for sending an email
-        emailSender.send(to, subject, body);
+        emailSender.send(toEmail, subject, body);
     }
 }

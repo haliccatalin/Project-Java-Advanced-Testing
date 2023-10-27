@@ -1,4 +1,4 @@
-package com.sda.javaadvancedtesting;
+package com.sda.javaadvancedtesting.services;
 
 import com.sda.javaadvancedtesting.utils.EmailSender;
 import com.sda.javaadvancedtesting.services.EmailService;

@@ -1,4 +1,4 @@
-package com.sda.javaadvancedtesting;
+package com.sda.javaadvancedtesting.services;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;

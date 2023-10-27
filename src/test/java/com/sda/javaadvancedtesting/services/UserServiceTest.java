@@ -1,4 +1,4 @@
-package com.sda.javaadvancedtesting;
+package com.sda.javaadvancedtesting.services;
 import com.sda.javaadvancedtesting.model.User;
 import com.sda.javaadvancedtesting.repositories.UserRepository;
 import com.sda.javaadvancedtesting.services.UserService;
