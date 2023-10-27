@@ -73,9 +73,6 @@ public class ProductServiceTest {
         // Call the service method
         productService.saveProduct(product);
 
-
-
-
         // Verify that the repository's save method was called
         verify(productRepository, times(1)).save(product);
     }
@@ -87,9 +84,5 @@ public class ProductServiceTest {
 
         // Verify that the repository's deleteById method was called
         verify(productRepository, times(1)).deleteById(1L);
-    }
-
-    public void cleanUp() {
-
     }
 }
